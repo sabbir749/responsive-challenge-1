@@ -249,7 +249,11 @@ nav {
     margin-top: 50px;
     margin-bottom: 80px;
     height: 313px;
-    background-image: url(assets/handshake.jpg);
+    /* background-image: url(assets/handshake.jpg); */
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('assets/handshake.jpg')
+    ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -257,7 +261,6 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: linear-gradient(black, black); */
 }
 
 .support-title {
@@ -295,6 +298,8 @@ nav {
     border-radius: 8px;
     border: none;
 }
+
+
 
 footer{
     display: flex;
